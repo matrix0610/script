@@ -27,7 +27,7 @@ firewall --disabled
 timezone --utc Etc/UTC
 
 # Authentication
-rootpw Asdfqwerty
+rootpw 123456
 # if you want to preset the root password in a public kickstart file, use SHA512crypt e.g.
 # rootpw --iscrypted $6$9dC4m770Q1o$FCOvPxuqc1B22HM21M5WuUfhkiQntzMuAV7MY0qfVcvhwNQ2L86PcnDWfjDd12IFxWtRiTuvO/niB0Q3Xpf2I.
 authconfig --enableshadow --passalgo=sha512
